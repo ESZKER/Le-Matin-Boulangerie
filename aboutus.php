@@ -9,14 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=DM+Serif+Display&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
 
     <?php include 'includes/header.php'; ?>
 
     <main>
-         <section class="footer-detail-section">
+        <section class="footer-detail-section">
             <div class="info-content">
                 <div class="footer-content">
                 <h1>About Us</h1>

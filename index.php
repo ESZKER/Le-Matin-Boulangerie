@@ -36,8 +36,6 @@ if ($result) {
                 <button class="btn-primary">Details</button>
             </div>
         </section> 
-
-        <img src="images/Line2.png" alt="Decoration" class="section-divider">
         
         <section class="special-section">
             <div class="special-content">
@@ -47,64 +45,29 @@ if ($result) {
             <div class="product-container">
 
                 <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
+                    <img src="images/chiffon.jpg" >
                     <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
+                        <span>Strawberry Chiffon Cake</span>
                         <h4>$4.50</h4>
                     </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </article>
+
+                 <article class="product">
+                    <img src="images/fruity.jpg" >
+                    <div class="description">
+                        <span>Fruity Pebbles layered Cake</span>
+                        <h4>$4.50</h4>
+                    </div>
                 </article>
 
                 <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
+                    <img src="images/banana.jpg" >
                     <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
+                        <span>Banana Cake</span>
                         <h4>$4.50</h4>
                     </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </article>
 
-                <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
-                    <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
-                        <h4>$4.50</h4>
-                    </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </article>
-
-                <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
-                    <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
-                        <h4>$4.50</h4>
-                    </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </article>
-
-                <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
-                    <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
-                        <h4>$4.50</h4>
-                    </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </article>
-
-                <article class="product">
-                    <img src="images/croissant.jpg" alt="French Croissant">
-                    <div class="description">
-                        <span>Croissant</span>
-                        <h5>Golden, shatteringly crisp on the outside and rich with buttery, tender layers within.</h5>
-                        <h4>$4.50</h4>
-                    </div>
-                    <a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping cart"></i></a>
-                </article>
 
             </div>
         </section>

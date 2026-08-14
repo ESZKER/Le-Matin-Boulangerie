@@ -16,16 +16,37 @@
     <?php include 'includes/header.php'; ?>
 
     <main>
-         <section class="footer-detail-section">
+        <section class="contact-section">
+            <div class="contact-image">
+                <img src="images/Patty.jpg" alt="random img">
+            </div>
+            <div class="contact-form-wrapper">
+                <div class="contact-form-inner">
+                    <h1>Contact</h1>
+                    <h4>Have questions about custom cake orders, catering for private events, or wholesale inquiries? Reach out to our team—we’d love to hear from you!</h4>
+                    
+                    <?php if (isset($_GET['status'])): ?>
+                        <?php if ($_GET['status'] === 'success'): ?>
+                            <p class="form-success">Thanks! Your message has been sent.</p>
+                        <?php elseif ($_GET['status'] === 'error'): ?>
+                            <p class="form-error">Something went wrong. Please try again.</p>
+                        <?php endif; ?>
+                    <?php endif; ?>
+
+                    <form action="process_contact.php" method="POST" class="contact-form">
+                        <input type="text" name="name" placeholder="YOUR NAME*" required>
+                        <input type="email" name="email" placeholder="YOUR EMAIL*" required>
+                        <input type="text" name="subject" placeholder="SUBJECT">
+                        <textarea name="message" placeholder="YOUR MESSAGE" rows="6"></textarea>
+                        <button type="submit" class="btn-submit">submit</button>
+                    </form>
+                </div>     
+            </div>
+        </section>
+        <hr>
+        <section class="footer-detail-section">
             <div class="info-content">
                 <div class="footer-content">
-                <h1>Contact Us</h1>
-                <p>Have questions about custom cake orders, catering for private events, or wholesale inquiries? Reach out to our team—we’d love to hear from you!</p>
-                <ul>
-                    <li><strong>General Email:</strong> hello@lematinboulangerie.com</li>
-                    <li><strong>Customer Support Line:</strong> +855 23 991 234 / +855 12 345 678</li>
-                    <li><strong>Catering & Events:</strong> catering@lematinboulangerie.com</li>
-                </ul>
                 <br>
                 <h1><strong>All Our Locations</strong></h1>
             
