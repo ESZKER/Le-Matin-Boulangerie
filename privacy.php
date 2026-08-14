@@ -16,17 +16,15 @@
     <?php include 'includes/header.php'; ?>
 
     <main>
-         <section class="privacy-section">
-            <div class="privacy-content">
+         <section class="footer-detail-section">
+            <div class="info-content">
+                <div class="footer-content">
                 <h1>Privacy policy</h1>
                 <p>At Le Matin Boulangerie, accessible from our website, we prioritize the privacy of our visitors and customers. This Privacy Policy outlines the types of information we collect and how we use, protect, and handle it.</p>
-            </div>
-
-            <div class="info-content">
-                <ol type="I">
+                <ol class="numbers" type="1">
                     <li>
-                        <h2><strong>Information We collected</strong><h2>
-                        <h4>We collect information to provide better services to our customers, process orders, and improve your online experience.</h4>
+                        <h2><strong>Information We collected</strong></h2>
+                        <p>We collect information to provide better services to our customers, process orders, and improve your online experience.</p>
                         <ul>
                             <li><strong>Personal Information:</strong> When you place an order, make a reservation, subscribe to our newsletter, or contact us, we may collect your name, email address, phone number, delivery address, and payment details.</li>
                             <li><strong>Usage Data:</strong> We automatically collect standard internet log information when you visit our website, including your IP address, browser type, device type, pages visited, and time spent on our site.</li>
@@ -44,23 +42,20 @@
                     </li>
                     <li>
                         <h2><strong>Sharing Your Information</strong></h2>
-                        <ul>
-                            <li>Position: UX Designer</li>
-                            <li>Department: Design</li>
-                        </ul>
+                        <p>We value your trust and do not sell, trade, or rent your personal information to third parties. We may share data only with trusted third-party service providers who assist us in operating our website, processing payments, or delivering orders to you, provided they agree to keep this information confidential.</p>
+
                     </li>
                     <li>
-                        <strong>Teang Dath</strong>
-                        <ul>
-                            <li>Position: Data Analyst</li>
-                            <li>Department: Analytics</li>
-                        </ul>
+                        <h2><strong>Data Security</strong></h2>
+                        <p>We implement a variety of security measures to maintain the safety of your personal information. Your sensitive data (such as payment information) is encrypted and processed through secure payment gateways.</p>
+                      
                     </li>
                     <li>
-                        <strong>James Charles</strong>
+                        <h2><strong>Your Choices & Rights</strong></h2>
                         <ul>
-                            <li>Position: HR Specialist</li>
-                            <li>Department: Human Resources</li>
+                            <li><strong>Opt-Out:</strong> You can unsubscribe from marketing emails at any time by clicking the "Unsubscribe" link at the bottom of our emails.</li>
+                            <li><strong>Cookies:</strong> You can choose to disable cookies through your individual browser options.</li>
+                            <li><strong>Data Access & Deletion:</strong> You may request access to, correction of, or deletion of your personal data by contacting us directly.</li>
                         </ul>
                     </li>
                 </ol>
