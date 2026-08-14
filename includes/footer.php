@@ -17,11 +17,11 @@
     </div>
     <div class="col">
         <h4>About</h4>
-        <a href="#">About Us</a>
-        <a href="#">Delivery Information</a>
+        <a href="aboutus.php">About Us</a>
+        <a href="delivery.php">Delivery Information</a>
         <a href="privacy.php">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Contact Us</a>
+        <a href="terms.php">Terms & Conditions</a>
+        <a href="contactus.php">Contact Us</a>
     </div>
     <div class="col">
         <h4>My Account</h4>

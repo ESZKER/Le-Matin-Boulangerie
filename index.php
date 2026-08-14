@@ -124,30 +124,30 @@ if ($result) {
             <h2 class="section-title">Why Le Matin Boulangerie?</h2>
             <div class="cards-container">
                 <div class="card card-1">
-                <div class="icon-wrapper">
-                    <img src="path-to-bag-icon.svg" alt="Easy to order icon" />
-                </div>
-                <h3>Easy to order</h3>
-                <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
-                <a href="#" class="read-more">Read more</a>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-bag-shopping icon" style="color: #1b4d3e;"></i>
+                    </div>
+                    <h3>Easy to order</h3>
+                    <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
 
                 <div class="card card-2">
-                <div class="icon-wrapper">
-                    <img src="path-to-truck-icon.svg" alt="Fastest Delivery icon" />
-                </div>
-                <h3>Fastest Delivery</h3>
-                <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
-                <a href="#" class="read-more">Read more</a>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-truck icon" style="color: #1b4d3e;"></i>
+                    </div>
+                    <h3>Fastest Delivery</h3>
+                    <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
 
                 <div class="card card-3">
-                <div class="icon-wrapper">
-                    <img src="path-to-badge-icon.svg" alt="Pure taste icon" />
-                </div>
-                <h3>Pure taste</h3>
-                <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
-                <a href="#" class="read-more">Read more</a>
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-plate-wheat icon" style="color: #1b4d3e;"></i>
+                    </div>
+                    <h3>Pure taste</h3>
+                    <p>Our mission is to bring the art of bread making back to its roots and to share our passion for bread with others.</p>
+                    <a href="#" class="read-more">Read more</a>
                 </div>
             </div>
         </section>

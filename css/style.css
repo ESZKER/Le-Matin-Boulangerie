@@ -617,6 +617,7 @@ html {
   }
 }
 
+/* Footer Style */
 
 .footer {
     display: flex;
@@ -684,4 +685,43 @@ html {
     font-size: 18px;
     font-weight: 400;
     color: #777;
+}
+
+/* Footer Details Style */
+
+.footer-detail-section{
+    padding: 45px 50px 50px;
+}
+
+.info-content {
+    max-width: 1100px;    
+    text-align: left; 
+    line-height: 1.6; 
+}
+
+.info-content ul,
+.info-content ol {
+    padding-left: 24px;      
+    list-style-position: outside;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.info-content li {
+    margin-bottom: 8px;
+}
+
+.info-content h1 { 
+    font-size: 37px;
+    color: #4A2E1B;  
+}
+
+.info-content p {
+    padding: 10px 0 10px;  
+    font-size: 19px; 
+}
+
+.icon-wrapper i {
+    font-size: 30px;   
 }
