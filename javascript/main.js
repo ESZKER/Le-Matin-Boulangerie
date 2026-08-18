@@ -2,9 +2,9 @@ var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 25,
     loop: true,
-    centeredSlide: true,
-    fade: true,
+    centeredSlides: true,
     grabCursor: true,
+    initialSlide: 1,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -27,3 +27,4 @@ var swiper = new Swiper(".slide-content", {
         },
     },
   });
+
